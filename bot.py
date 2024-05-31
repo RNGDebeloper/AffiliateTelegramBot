@@ -16,8 +16,8 @@ logging.getLogger('telegram').setLevel(logging.WARNING)
 logging.getLogger('httpx').setLevel(logging.WARNING)
 
 # Read env variables
-TOKEN = os.environ['6639179343:AAFz8muBCY0FEnyRFOZYV0Nt_SrvnL8PDdk']
-DEV_CHAT_ID = os.environ['-1001519241462'] if 'DEV_CHAT_ID' in os.environ else None
+TOKEN = os.environ['6560974142:AAFWLQuRhL1AmBbHWXQSOQVF3C6CLV02ePE']
+DEV_CHAT_ID = os.environ['5729587090'] if 'DEV_CHAT_ID' in os.environ else None
 search_url = os.environ['https://www.amazon.in/'] 
 affiliate_tag = os.environ['dealswithbot-21']
 
